@@ -16,7 +16,7 @@ fi
 
 # Configure git if not already done
 if [ ! -f ~/.gitconfig ]; then
-    echo "Setting up git configuration..."
+    echo("Setting up git configuration...")
     read -p "Enter your GitHub username: " GIT_USER
     read -p "Enter your GitHub email: " GIT_EMAIL
     git config --global user.name "$GIT_USER"
