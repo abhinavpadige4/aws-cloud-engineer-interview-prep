@@ -53,6 +53,7 @@ if [ -f "ec2-launch-script.sh" ]; then
 fi
 
 if [ -f "cleanup-script.sh" ]; then
+    then
     git add cleanup-script.sh
     echo "Added cleanup-script.sh"
 fi
